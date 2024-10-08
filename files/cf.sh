@@ -4,9 +4,9 @@ apt install jq curl -y
 #read -p "Masukan Domain (contoh : Dragon)" domen
 DOMAIN=domainmu
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-dns=${sub}.subdomainmu
-CF_ID=emailmu@gmail.com
-CF_KEY=keytele
+dns=${sub}.He3ndrixx.store
+CF_ID=klenin980@gmail.com
+CF_KEY=dab0c34aa1d0fd9935550ec36df41b5d09c7b
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
